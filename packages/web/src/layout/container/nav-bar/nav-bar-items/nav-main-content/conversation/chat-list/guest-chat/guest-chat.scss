@@ -1,0 +1,114 @@
+
+.guestchat-container{
+    display: flex;
+    width: 80%;
+
+    .guestchat-left{
+        /* flex:1 */
+        // align-self: flex-end;
+        cursor: pointer;
+    }
+    
+    .guestchat-right{
+        flex: 8;
+
+        .chat-time{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 18px;
+            
+            color: #757575;
+            margin-left: 28px;
+        }
+    }
+
+    .guestchat-maincontext{
+        display: flex;
+        width: fit-content;
+        width: -moz-fit-content;
+        word-wrap: break-word;
+        
+        .guestchat-icon{
+            margin: auto 0 auto 16px;
+            opacity: 0;
+        }
+    }
+}
+
+.guestchat-text{
+    background: var(--color-background2);
+    border-radius: 16px 16px 16px 0;
+    mix-blend-mode: normal;
+    opacity: 0.95;
+    overflow: auto;
+    width: 100%;
+}
+
+.guestchat-maincontext:hover .guestchat-icon,
+.guestchat-icon:hover
+{
+    opacity: 1;
+}
+
+
+/* ------------------------------------------------ RESPONSIVE ----------------------- */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 767px) {
+    .guestchat-container{
+        width: 100%;
+    }
+    .vertical3dots:active{
+        opacity: 1;
+    }
+    
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+  
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+  
+  }
+
+  @media (min-width:1700px){   
+    .guestchat-container{
+        width: 65%;
+    }
+  }
+  
+  @media (min-width:2000px){   
+    .guestchat-container{
+        width: 55%;
+    }
+  }
+  
+  @media (min-width:2350px){   
+    .guestchat-container{
+        width: 45%;
+    }
+  }
+  
+  @media (min-width:4090px){   
+    .guestchat-container{
+        width: 35%;
+    }
+  }
+  
+  @media (min-width:5400px){   
+    .guestchat-container{
+        width: 25%;
+    }
+  } 
