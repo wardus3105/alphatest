@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T03:26:46.003Z" agent="5.0 (X11)" etag="MjA0R4nc84fU0Yj6zOCI" version="14.8.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-07-01T04:27:15.132Z" agent="5.0 (X11)" etag="f4hhwk-7tbFqgtqyH-BU" version="14.8.2" type="github" pages="6">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Overall">
-    <mxGraphModel dx="1771" dy="953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1628" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3027,7 +3027,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Product" id="WD58lb3WnXd134FL0fhv">
-    <mxGraphModel dx="1240" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1357" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="KFM7vD7N1yRuUlJpfQ8o-0" />
         <mxCell id="KFM7vD7N1yRuUlJpfQ8o-1" parent="KFM7vD7N1yRuUlJpfQ8o-0" />
@@ -3306,7 +3306,7 @@
         <mxCell id="KFM7vD7N1yRuUlJpfQ8o-118" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;" parent="KFM7vD7N1yRuUlJpfQ8o-117" vertex="1">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KFM7vD7N1yRuUlJpfQ8o-119" value="id varchar(24) NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" parent="KFM7vD7N1yRuUlJpfQ8o-117" vertex="1">
+        <mxCell id="KFM7vD7N1yRuUlJpfQ8o-119" value="id varchar(15) NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" parent="KFM7vD7N1yRuUlJpfQ8o-117" vertex="1">
           <mxGeometry x="30" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KFM7vD7N1yRuUlJpfQ8o-120" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="KFM7vD7N1yRuUlJpfQ8o-116" vertex="1">
@@ -3324,7 +3324,7 @@
         <mxCell id="KFM7vD7N1yRuUlJpfQ8o-124" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="KFM7vD7N1yRuUlJpfQ8o-123" vertex="1">
           <mxGeometry width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="KFM7vD7N1yRuUlJpfQ8o-125" value="payment_type enum(&#39;0&#39;,&#39;1&#39;)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="KFM7vD7N1yRuUlJpfQ8o-123" vertex="1">
+        <mxCell id="KFM7vD7N1yRuUlJpfQ8o-125" value="payment_type_id varchar(24)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="KFM7vD7N1yRuUlJpfQ8o-123" vertex="1">
           <mxGeometry x="30" width="210" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KFM7vD7N1yRuUlJpfQ8o-126" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="KFM7vD7N1yRuUlJpfQ8o-116" vertex="1">
@@ -3353,6 +3353,15 @@
         </mxCell>
         <mxCell id="KFM7vD7N1yRuUlJpfQ8o-134" value="amount int" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="KFM7vD7N1yRuUlJpfQ8o-132" vertex="1">
           <mxGeometry x="30" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nnSXd-hl2F3Q0ZG6JkA1-1" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KFM7vD7N1yRuUlJpfQ8o-116">
+          <mxGeometry y="170" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nnSXd-hl2F3Q0ZG6JkA1-2" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="nnSXd-hl2F3Q0ZG6JkA1-1">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nnSXd-hl2F3Q0ZG6JkA1-3" value="external_trans_id varchar(24)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="nnSXd-hl2F3Q0ZG6JkA1-1">
+          <mxGeometry x="30" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KFM7vD7N1yRuUlJpfQ8o-136" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=none;startArrow=ERoneToMany;startFill=0;endFill=0;entryX=-0.005;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.999;exitY=1.007;exitDx=0;exitDy=0;exitPerimeter=0;" parent="KFM7vD7N1yRuUlJpfQ8o-1" source="KFM7vD7N1yRuUlJpfQ8o-12" target="KFM7vD7N1yRuUlJpfQ8o-34" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -3692,7 +3701,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nphAm33C3qt9kJLiP9Hj" name="Sample Product Mapping">
-    <mxGraphModel dx="1997" dy="1063" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1628" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="cHcJdTXvNBfcIHbWg2_T-0" />
         <mxCell id="cHcJdTXvNBfcIHbWg2_T-1" parent="cHcJdTXvNBfcIHbWg2_T-0" />
@@ -4205,7 +4214,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Dictionary" id="1Z02uO1wWJeLBWHitWWT">
-    <mxGraphModel dx="1240" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1628" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="o6Zx4fjE0U24KNwT-rN6-0" />
         <mxCell id="o6Zx4fjE0U24KNwT-rN6-1" parent="o6Zx4fjE0U24KNwT-rN6-0" />
